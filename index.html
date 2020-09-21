@@ -1,0 +1,1122 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./engedit.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <title>New Project</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/8eb330855f.js" crossorigin="anonymous"></script>
+<script>$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 30) {
+            $(".navbar").css('background-color' ," white");
+          $(".navbar").css('box-shadow' ," 0px 0px 1px 2px rgb(187, 187, 187)");
+        }
+  
+        else{
+           
+            $(".navbar").css('box-shadow' ,"none"); 	
+        }
+    });
+
+    $('.freq_btn1').click(function(){
+      $('.togglematter1').toggle();
+      $('.togglematter1 .p').css('color' ,'blue');
+  });
+  $('.freq_btn2').click(function(){
+      $('.togglematter2').toggle();
+      $('.togglematter2 .p').css('color' ,'blue');
+  });
+  $('.freq_btn3').click(function(){
+      $('.togglematter3').toggle();
+      $('.togglematter3 .p').css('color' ,'blue');
+  });
+  $('.freq_btn4').click(function(){
+      $('.togglematter4').toggle();
+      $('.togglematter4 .p').css('color' ,'blue');
+  });
+  });
+  
+</script>
+<style>
+    .navbar{
+   background-color:#1E90FF;
+    
+}
+.nav-btn{
+    background-color:#FFD700;
+    color:black;
+    padding:10px 20px ;
+    border:none;
+    outline: none;
+    
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+}
+.nav-item{
+padding:5px 15px;
+text-align: center;
+text-transform: uppercase;
+color:white;
+font-weight: 600;
+font-size: 17px;
+}
+.sec_h{
+    color:white;
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+}
+.freq_btn1,.freq_btn2,.freq_btn3,.freq_btn4{
+    border:none;
+    outline:none;
+    padding:5px;
+
+}
+
+.hover_a:hover .hover_div{
+    display:block;
+}
+.row1{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    
+}
+.row1 .col{
+    width:33.33%;
+    flex:0 0 33.33%;
+    padding:10px 10px 10px 20px;
+   
+    
+}
+.hover_bg{
+      padding-top: 10px;
+      border-radius: 3px;
+      padding-left:10px ;
+  }
+
+ 
+  .dropdown:hover .dropdown-menu{
+      display:block;
+      transition:all 1s ease ;
+  }
+   .p_col1
+   {font-size:13px ; font-weight: 800; margin-bottom: 5px; color:black;}
+   .p_col_why{
+    font-size:13px ; font-weight: 700; text-align: center;  color:black;
+    
+   }
+   .hover_bg2{
+       padding:5px 20px;
+   }
+   .hover_bg2:hover{
+ background-color:#E5B3FE ;
+   }
+   .p_col1:hover,.p_col_why:hover{
+       color:blue;
+       padding-bottom:10px ;
+   }
+   .hover_bg:hover .p_col1 ,.hover_bg:hover .p_col2{
+ color:blue;
+   }
+   .p_col2{
+    font-size:12px ;color:black ; margin-bottom: 5px;  
+   }
+   .hover_bg:hover{
+       background-color: rgba(201, 201, 201, 0.5);
+   }
+   .sticky-top2{
+  position:sticky;
+  top:60px; 
+  z-index:1019; 
+}
+.covid_sec{
+   
+   
+    justify-content: right;
+   padding:10px;
+     align-items: right;
+    background:yellow;
+    text-decoration:none ;
+    
+}
+.covid_sec .top{
+  margin-left: 800px;
+}
+@media screen and (max-width:747px){
+  .covid_sec .top{
+  margin-left: 0px;
+}
+
+}
+.button a{
+      border: 1px solid #1E90FF;
+      border-radius: 100px;
+      margin: 0 5px;
+      padding: 11px 35px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.4;
+      text-align: center;
+      background: #1E90FF;
+    }
+    .button a:hover{
+      color: #1E90FF;
+      background: white;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+    }
+    .btn a{
+      border: 1px solid #1E90FF;
+      border-radius: 100px;
+      margin: 0 5px;
+      padding: 8px 30px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.4;
+      text-align: center;
+      background: #1E90FF;
+      text-decoration:none;
+    }
+    .btnn a{
+      border: 1px solid darkblue;
+      border-radius: 50px;
+      margin: 0 3px;
+      padding: 8px 30px;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 400;
+      line-height: 1.4;
+      text-align: center;
+      background: darkblue;
+    }
+#PagesWordPress:hover{
+  
+  box-shadow: 0 0 30px 0 rgba(0 ,0, 0,0.6 );
+ 
+}
+#Page1:hover{
+  
+  box-shadow: 0 0 30px 0 rgba(0 ,0, 0,0.6 );
+ 
+}
+#Page2:hover{
+  
+  box-shadow: 0 0 30px 0 rgba(0 ,0, 0,0.6 );
+ 
+}
+#Page3:hover{
+  
+  box-shadow: 0 0 30px 0 rgba(0 ,0, 0,0.6 );
+ 
+}
+#Page4:hover{
+  
+  box-shadow: 0 0 30px 0 rgba(0 ,0, 0,0.6 );
+ 
+}
+   
+.image{
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url("bg2.jpg");
+}
+.botton a{
+      border: 1px solid chocolate;
+      border-radius: 100px;
+      margin: 0 5px;
+      padding: 11px 35px;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 500;
+      line-height: 1.4;
+      text-align: center;
+      background: chocolate;
+      text-decoration:none;
+      box-shadow: 0 0 20px 0 rgba(0 ,0, 0,0.3 );
+    }
+    .footer h4{
+      padding: 20px;
+      font-size: 30px;
+    }
+    .footer li{
+      list-style: none;
+      color: white;
+      padding: 20px;
+      font-weight: 400;
+      font-size: 0.9rem;
+    }
+    .footer li:hover{
+      color: coral;
+    }
+</style>
+
+
+    
+
+</head>
+<body>
+
+    <div class="covid_sec">
+      <div class="container">
+       <a href="#" class="top" style=" color:black; font-weight: bold;">JOINUS</a>
+       <a href="#" style="border-left:1px solid black; padding:5px; color:black; font-weight: bold;">LOST PASSWORD</a> &nbsp;
+       <a href="#" style="border-left:1px solid black; padding:5px; color:black; font-weight: bold;">LOGIN</a> 
+       </div>
+      </div>
+    
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+        <a class="navbar-brand" href="#" style="margin-left:20px;">
+        <img src="logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" 
+        >
+        <div style="display:flex; justify-content: space-between; margin-right:40px ; width:100%;">
+          <ul class="navbar-nav " >
+            <li class="nav-item dropdown">
+              <a class="nav-link "style="color:white;" >
+                Home
+              </a>
+              
+    
+            </li>
+            <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style="color:white;"
+                  >Abouts</a
+                >
+                <div
+                  class="dropdown-menu dropdown-primary"
+                  aria-labelledby="navbarDropdownMenuLink"
+                ><div class="hover_bg2"><a class="dropdown-item p_col_why" href="./why_choose_us.html" >Our Team</a></div> 
+                  
+                </div>
+              </li>
+             
+    
+            
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  style="color:white;"
+                  >Services </a
+                >
+                <div
+                  class="dropdown-menu dropdown-primary"
+                  aria-labelledby="navbarDropdownMenuLink"
+                ><div class="hover_bg2"><a class="dropdown-item p_col_why" href="./why_choose_us.html" >Website Design</a></div> 
+                <div class="hover_bg2"><a class="dropdown-item p_col_why" href="./why_choose_us.html" >Graphic Design</a></div> 
+                <div class="hover_bg2"><a class="dropdown-item p_col_why" href="./why_choose_us.html" >Logo Design</a></div> 
+                <div class="hover_bg2"><a class="dropdown-item p_col_why" href="./why_choose_us.html" >Digital Marketing</a></div> 
+                <div class="hover_bg2"><a class="dropdown-item p_col_why" href="./why_choose_us.html" >2D-3D Animation</a></div> 
+               
+                </div>
+              </li>
+             
+    
+
+
+           
+   
+            <li class="nav-item">
+              <a class="nav-link" href="#"style="color:white;">Portofolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"style="color:white;">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"style="color:white;">Contacts</a>
+              </li>
+              
+
+          </ul>
+              <ul class="navbar-nav " style="display:flex">
+                <li class="nav-item">
+                    <button class="nav-btn" >Place Order &nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>        
+                  </li> 
+    
+              </ul>
+           
+            
+          </div>
+        </div>
+        </div>
+      </nav>
+<div class="header p-0" style="padding-bottom: 0%;">
+  <img src="bg1.png" width="100%" height="500px">
+
+</div>
+<div style="background:yellow; padding:10px;">
+ <h1 style="font-weight: bold; color: blue; text-align: center;"> 360° IT Solution At Freelancer IT Services</h2>
+
+</div>
+
+
+<section style="padding: 70px;">
+<div class="container">
+<div class="row">
+<div class="col-md-6" style="padding-top: 60px;">
+  <img src="img.jpg" width="100%" height="500px">
+</div>
+<div class="col-md-6" style="padding-top: 40px; letter-spacing: 1px;">
+  <h5 style="color: blue; font-size: 17px;">About us</h5>
+<h1 style="font-weight: bolder; padding-top: 20px; font-size: 45px;">Who We Are</h1>
+<p style="padding-top: 30px; font-size: 18px;">Since 2015, we have been a single service provider known for our creative approach, advanced technology, 
+  and 360-degree in-depth consumer research so that we can bring your brands digitally. 
+  </p>
+<p style=" font-size: 18px;">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each day is full of new challenges. Hence, it is quite difficult for any business to be a pioneer. Integrated marketing
+   approach and one-to-one marketing techniques are of no more importance these days. Hence, we study the market in deep
+    and work accordingly for our customers.
+</p>
+<p style=" font-size: 19px;">
+  We provide freelance solutions around the World and we have clients in<i style="font-weight: bolder;"> UK, USA, UAE, Italy, and India. </i>
+</p>
+<div class="button" style="padding-top: 20px;">
+  <a href="#">Read More</a>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</section>
+
+<section style="background: whitesmoke; padding: 50px;">
+  <div class="container">
+  <h5 style="color: blue; font-size: 17px; text-align: center; font-weight: bold;">OUR SERVICES</h5>
+<h1 class="text-center" style="font-weight: bolder; padding: 20px; color: black; font-size: 45px;">What We Do</h1>
+<div class="row" style="padding-top: 30px;">
+<div class="col-md-4 text-center">
+  <img src="a1.png" width="100px">
+  <h2 style="padding: 30px; font-size: 25px; font-weight: bold;">Web Design</h2>
+  <p style=" font-size: 18px;">We know that your website is the first impression of your business. Therefore, we make sure that your
+     this first impression can be a long term conversion for your business.</p>
+     <div class="button" style="padding-top: 20px;">
+      <a href="#" style="border-radius: 10px;">Read More</a>
+    </div>
+    
+</div>
+<div class="col-md-4 text-center">
+  <img src="a2.png" width="100px">
+  <h2 style="padding: 30px; font-size: 25px; font-weight: bold;">Graphics Designing  </h2>
+  <p style=" font-size: 18px;">A picture can speak more than your words do. Hence, your website, logo, brochure, flyers,
+     and banners can create a major impact on the audience that than the write-ups.
+
+  </p>
+  <div class="button" style="padding-top: 20px;">
+    <a href="#" style="border-radius: 10px;">Read More</a>
+  </div>
+  
+</div>
+<div class="col-md-4 text-center">
+  <img src="a3.png" width="100px">
+  <h2 style="padding: 30px; font-size: 25px; font-weight: bold;">Logo Designing  </h2>
+  <p style=" font-size: 18px;">A logo is a reflection of your brand. It reflects the unique styling, persona, and values of your
+     brand. A unique and eye-catchy logo instantly gets attention and recognition..
+
+  </p>
+  <div class="button" style="padding-top: 20px;">
+    <a href="#" style="border-radius: 10px;">Read More</a>
+  </div>
+  
+</div>
+
+</div>
+
+<div class="row" style="padding-top: 60px;">
+  <div class="col-md-4 text-center">
+    <img src="a4.png" width="100px">
+    <h2 style="padding: 30px; font-size: 25px; font-weight: bold;">Social Media Marketing    </h2>
+    <p style=" font-size: 18px;">As everyone’s day-to-day routine revolves around social media sites, reaching your customers 
+      through these social networking sites has become an easy game.
+
+    </p>
+       <div class="button" style="padding-top: 20px;">
+        <a href="#" style="border-radius: 10px;">Read More</a>
+      </div>
+      
+  </div>
+  <div class="col-md-4 text-center">
+    <img src="a5.png" width="100px">
+    <h2 style="padding: 20px; font-size: 25px; font-weight: bold;">Search Engine Optimization    </h2>
+    <p style=" font-size: 18px;">Search engine optimization (SEO) is the process of getting sample traffic on a website on 
+      search engines and by providing them higher ranks.
+
+
+    </p>
+    <div class="button" style="padding-top: 20px;">
+      <a href="#" style="border-radius: 10px;">Read More</a>
+    </div>
+    
+  </div>
+  <div class="col-md-4 text-center">
+    <img src="a6.png" width="100px">
+    <h2 style="padding: 20px; font-size: 25px; font-weight: bold;">2D - 3D Animation    </h2>
+    <p style=" font-size: 18px;">At Freelanceritservices, we have a team of experienced animators who simplifies your products and 
+      services in 2 D and 3 D animations that can help you to easily connect with your target customers.
+
+
+    </p>
+    <div class="button" style="padding-top: 20px;">
+      <a href="#" style="border-radius: 10px;">Read More</a>
+    </div>
+    
+  </div>
+  
+  </div>
+  </div>
+</section>
+
+<section style="padding: 50px;">
+  <div class="container">
+  <h5 style="color: blue; font-size: 17px; text-align: center; font-weight: bold;">OUR SERVICES</h5>
+  <h1 class="text-center" style="font-weight: bolder; padding: 20px; color: black; font-size: 45px;">Get Services At Best Price
+  </h1>
+  <div class="service">
+    <div class="row" style="background: blue; color: white; text-align: center; padding: 5px;">
+      <div class="col-md-2">
+        <h4>Category</h4>
+      </div>
+      <div class="col-md-8">
+        <h4>Features</h4>
+      </div>
+      <div class="col-md-2">
+        <h4>Price</h4>
+      </div>
+    </div>
+
+    <div class="row" id="PagesWordPress">
+      <div class="col-md-3 text-center" style="background:#1E90FF ;">
+        <h4 class="text-white" style="padding-top: 40px; padding-bottom: 40px;">Dynamic Website</h4>
+      </div>
+     <div class="col-md-6 coll text-center" style=" border-bottom: 1px solid black;">
+       <p style="padding: 10px;color: black;">7 PagesWordPress CMSMobile Responsive LayoutContact FormGoogle MapSEO FriendlySocial Media Integration1 Year Free Domain*
+          Live chat IntegrationQuality UI Web-page Design</p>
+    </div>
+    <div class="col-md-3 text-center" style="background:whitesmoke;">
+      <h4 style="padding-top: 20px; font-weight: bold;">INR 6,999/-</h4>
+      <div class="btn" style="padding-top: 20px;">
+        <a href="#" style="border-radius: 10px;">Get Enquiry</a>
+      </div>
+      
+    </div>
+
+    </div>
+
+
+
+
+    
+    <div class="row" id="Page1">
+      <div class="col-md-3 text-center" style="background:yellowgreen;">
+        <h4 class="text-white" style="padding-top: 60px; padding-bottom: 40px;">E-commerce Website</h4>
+      </div>
+     <div class="col-md-6 text-center" style=" border-bottom: 1px solid black;">
+       <p style="padding: 10px;color: black;">Upto 250 ProductsWoocommerceMobile Responsive LayoutShopping CartPayment GatewaySEO
+         FriendlySocial Media Integration1 Year Free domain + HostingQuality UI Web-page DesignLive chat Integration
+      </p>
+      <p>Note : We also Design ecommerce website on OpenCart , Shopify , React Js & Bigcommerce for more information Enquiry us →
+      </p>
+    </div>
+    <div class="col-md-3 text-center" style="background:whitesmoke;">
+      <h4 style="padding-top: 40px; font-weight: bold;">INR 14,999/-</h4>
+      <div class="btn" style="padding-top: 20px;">
+        <a href="#" style="border-radius: 10px;">Get Enquiry</a>
+      </div>
+      
+    </div>
+
+    </div>
+
+
+    
+    <div class="row" id="Page2">
+      <div class="col-md-3 text-center" style="background:tomato;">
+        <h4 class="text-white" style="padding-top: 40px; padding-bottom: 40px;">3D Logo</h4>
+      </div>
+     <div class="col-md-6 text-center" style=" border-bottom: 1px solid black;">
+       <p style="padding: 10px;color: black;">3 Design Concepts,5 RevisionsHigh Resolution3D MockupSource FilePrint Ready3 Days Delivery*
+      </p>
+    </div>
+    <div class="col-md-3 text-center" style="background:whitesmoke;">
+      <h4 style="padding-top: 20px; font-weight: bold;">INR 6,999/-</h4>
+      <div class="btn" style="padding-top: 20px;">
+        <a href="#" style="border-radius: 10px;">Get Enquiry</a>
+      </div>
+      
+    </div>
+
+    </div>
+
+
+    
+    <div class="row" id="Page3">
+      <div class="col-md-3 text-center" style="background:palevioletred;">
+        <h4 class="text-white" style="padding-top: 80px; padding-bottom: 40px;">E-commerce Website + Multivendor
+        </h4>
+      </div>
+     <div class="col-md-6 text-center" style=" border-bottom: 1px solid black;">
+       <p style="padding: 10px;color: black;">Upto 500 ProductsWoocommerceMobile Responsive LayoutShopping CartPayment GatewaySEO
+         FriendlySocial Media Integration1 Year Free domain + HostingQuality UI Web-page DesignFully Customized DesignSeparate Admin/Vendor
+          DashboardProduct Management SystemTrack InventoryCustomer Order ManagementMulti-Currency FunctionalityMultiple Payment OptionsSales
+           ReportsLive chat Integration
+      </p>
+      <p>Note : We also Design ecommerce website on OpenCart , Shopify , React Js & Bigcommerce for more information Enquiry us →
+
+      </p>
+    </div>
+    <div class="col-md-3 text-center" style="background:whitesmoke;">
+      <h4 style="padding-top: 40px; font-weight: bold;">INR 20,999/-</h4>
+      <div class="btn" style="padding-top: 20px;">
+        <a href="#" style="border-radius: 10px;">Get Enquiry</a>
+      </div>
+      
+    </div>
+
+    </div>
+
+
+    
+    <div class="row" id="Page4">
+      <div class="col-md-3 text-center" style="background:#1E90FF ;">
+        <h4 class="text-white" style="padding-top: 40px; padding-bottom: 40px;">Social Media Marketing</h4>
+        </div>
+     <div class="col-md-6 text-center" style=" border-bottom: 1px solid black;">
+       <p style="padding-top: 30px;color: black;">Account Management25 Info-Graphics DesignOrganic ActivitiesKeywords & Content CreationIncrease Likes & 
+        FollowersAds Campaign Creation*
+      </p>
+    </div>
+    <div class="col-md-3 text-center" style="background:whitesmoke;">
+      <h4 style="padding-top: 20px; font-weight: bold;">INR 5,999/-</h4>
+      <div class="btn" style="padding-top: 20px;">
+        <a href="#" style="border-radius: 10px;">Get Enquiry</a>
+      </div>
+      
+    </div>
+
+    </div>
+
+  </div>
+  <div class="button text-center" style="padding-top: 20px;">
+    <a href="#">View More</a>
+  </div>
+  
+  </div>
+</section>
+
+
+<section style="background: whitesmoke; padding: 50px;">
+  <div class="container">
+  <h5 style="color: blue; font-size: 17px; text-align: center; font-weight: bold;">OUR PORTFOLIO  </h5>
+<h1 class="text-center" style="font-weight: bolder; padding: 20px; color: black; font-size: 45px;">View Our Latest Work</h1>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators" style="margin-top: 100px;">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+      <div class="row">
+        <div class="col-md-3">
+          <img src="1.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Character Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+         
+        </div>
+        <div class="col-md-3">
+          <img src="2.jpg" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Logo Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <img src="3.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Website Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <img src="4.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Social Media Banner</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+    <div class="carousel-item">
+     <div class="row">
+        <div class="col-md-3">
+          <img src="1.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Character Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+         
+        </div>
+        <div class="col-md-3">
+          <img src="2.jpg" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Logo Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <img src="3.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Website Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <img src="4.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Social Media Banner</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="1.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Character Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+         
+        </div>
+        <div class="col-md-3">
+          <img src="2.jpg" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Logo Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <img src="3.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Website Design</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <img src="4.png" style="border: 2px solid black;">
+          <h6 style="padding: 30px; font-weight: bold;">Social Media Banner</h6>
+          <div class="btnn" >
+            <a href="#" style="border-radius: 10px;">View more</a>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+
+</div>
+</section>
+
+<section>
+<div class="image">
+  <div  style="text-align: center; color: white; padding: 80px;">
+<h1 style="font-size: 50px; font-weight: bolder;">IT & Digital Marketing Services</h1>
+<div class="row" style="padding: 80px;">
+<div class="col-md-4">
+  <h1 style="font-size: 60px; font-weight: bolder;">439+</h1>
+  <p style="font-size: 20px; font-weight: 500;">No. of Projects</p>
+</div>
+<div class="col-md-4">
+  <h1 style="font-size: 60px; font-weight: bolder;">550+</h1>
+  <p style="font-size: 20px; font-weight: 500;">Consultants  </p>
+</div>
+<div class="col-md-4">
+  <h1 style="font-size: 60px; font-weight: bolder;">430+</h1>
+  <p style="font-size: 20px; font-weight: 500;">Satisfied Customers  </p>
+</div>
+</div>
+</div>
+</section>
+
+
+<section style="background: #1E90FF; padding: 50px;">
+  <div class="container">
+  <h5 style="color: white; font-size: 17px; text-align: center; font-weight: bold;">OUR TESTIMONIALS  </h5>
+<h1 class="text-center" style="font-weight: bolder; padding: 20px; color: white; font-size: 45px;">What Our Clients Says</h1>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <div class="row" style="padding-top: 50px;">
+    <div class="col-md-6">
+      <div class="row" style="padding-bottom:20px ;">
+      <div class="col-md-3"><img src="q1.jpg" style="border-radius:10px; justify-content: center;"></div>
+      <div class="col-md-9" style="color: white; font-weight: bolder; padding-top: 20px;"><h6>Mr Sachin Patel</h6>
+        <h6 style="color: yellow;">Owener - WDP</h6>
+     </div>
+  </div>
+  <div style="color: black; background: white; padding: 10px; border-radius: 10px;">
+  <p> Thanks, Freelancer A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+     can create a major impact on the audience than the write-ups A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+     can create a major impact on the audience than the write-ups.</p>
+
+
+  </div>
+    </div> 
+    <div class="col-md-6">
+      <div class="row" style="padding-bottom:20px ;">
+        <div class="col-md-3"><img src="q2.jpg" style="border-radius:10px; justify-content: center;"></div>
+        <div class="col-md-9" style="color: white; font-weight: bolder; padding-top: 20px;"><h6>Mr Surendra Singh</h6>
+          <h6 style="color: yellow;">Owener - PDP</h6>
+       </div>
+    </div>
+    <div style="color: black; background: white; padding: 10px; border-radius: 10px;">
+    <p> Thanks, Freelancer A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+       can create a major impact on the audience than the write-ups A picture can speak more than your words do. Hence, your website, logo, brochure.</p>
+  
+  
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row" style="padding-top: 50px;">
+        <div class="col-md-6">
+          <div class="row" style="padding-bottom:20px ;">
+          <div class="col-md-3"><img src="q1.jpg" style="border-radius:10px; justify-content: center;"></div>
+          <div class="col-md-9" style="color: white; font-weight: bolder; padding-top: 20px;"><h6>Mr Sachin Patel</h6>
+            <h6 style="color: yellow;">Owener - WDP</h6>
+         </div>
+      </div>
+      <div style="color: black; background: white; padding: 10px; border-radius: 10px;">
+      <p> Thanks, Freelancer A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+         can create a major impact on the audience than the write-ups A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+         can create a major impact on the audience than the write-ups.</p>
+    
+    
+      </div>
+        </div> 
+        <div class="col-md-6">
+          <div class="row" style="padding-bottom:20px ;">
+            <div class="col-md-3"><img src="q2.jpg" style="border-radius:10px; justify-content: center;"></div>
+            <div class="col-md-9" style="color: white; font-weight: bolder; padding-top: 20px;"><h6>Mr Surendra Singh</h6>
+              <h6 style="color: yellow;">Owener - PDP</h6>
+           </div>
+        </div>
+        <div style="color: black; background: white; padding: 10px; border-radius: 10px;">
+        <p> Thanks, Freelancer A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+           can create a major impact on the audience than the write-ups A picture can speak more than your words do. Hence, your website, logo, brochure.</p>
+      
+      
+        </div>
+        </div>
+        
+        </div> </div>
+    <div class="carousel-item">
+      <div class="row" style="padding-top: 50px;">
+        <div class="col-md-6">
+          <div class="row" style="padding-bottom:20px ;">
+          <div class="col-md-3"><img src="q1.jpg" style="border-radius:10px; justify-content: center;"></div>
+          <div class="col-md-9" style="color: white; font-weight: bolder; padding-top: 20px;"><h6>Mr Sachin Patel</h6>
+            <h6 style="color: yellow;">Owener - WDP</h6>
+         </div>
+      </div>
+      <div style="color: black; background: white; padding: 10px; border-radius: 10px;">
+      <p> Thanks, Freelancer A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+         can create a major impact on the audience than the write-ups A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+         can create a major impact on the audience than the write-ups.</p>
+    
+    
+      </div>
+        </div> 
+        <div class="col-md-6">
+          <div class="row" style="padding-bottom:20px ;">
+            <div class="col-md-3"><img src="q2.jpg" style="border-radius:10px; justify-content: center;"></div>
+            <div class="col-md-9" style="color: white; font-weight: bolder; padding-top: 20px;"><h6>Mr Surendra Singh</h6>
+              <h6 style="color: yellow;">Owener - PDP</h6>
+           </div>
+        </div>
+        <div style="color: black; background: white; padding: 10px; border-radius: 10px;">
+        <p> Thanks, Freelancer A picture can speak more than your words do. Hence, your website, logo, brochure, flyers, and banners
+           can create a major impact on the audience than the write-ups A picture can speak more than your words do. Hence, your website, logo, brochure.</p>
+      
+      
+        </div>
+        </div>
+        
+        </div> </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</div>
+</section>
+
+
+
+
+
+
+<section style="padding: 50px;">
+  <div class="container">
+<h1 class="text-center" style="font-weight: bolder; padding: 20px; color: black; font-size: 45px;">Our Clients</h1>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators" style="margin-top: 100px;">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+      <div class="row">
+        <div class="col-md-3">
+          <img src="b1.jpg" width="200px" height="200px" style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b2.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b3.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b4.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         </div>
+
+      </div>
+
+
+
+
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="b1.jpg" width="200px" height="200px" style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b2.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b3.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b4.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         </div>
+
+      </div>
+
+
+
+
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="b1.jpg" width="200px" height="200px" style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b2.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b3.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         
+        </div>
+        <div class="col-md-3">
+          <img src="b4.jpg" width="200px" height="200px"  style="border: 10px solid lightgray;">
+         </div>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+
+</div>
+</section>
+
+<section style="background:#1E90FF; padding: 30px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h1 style="color: white; font-weight: 400;">For Any Query Regarding Our Services !!</h1>
+    </div>
+    <div class="col-md-3">
+      <div class="botton" style="padding-top: 20px;">
+        <a href="#">Enquiry now</a>
+      </div>
+      
+    </div>
+    </div>
+</div>
+</section>
+
+<section class="footer" style="background: linear-gradient(to right, blue, #1E90FF); padding: 80px;">
+<div class="container">
+<div class="row">
+<div class="col-md-2">
+  <h4 style="color: coral; font-weight: 400;">Services</h4>
+  <li>Website Design</li>
+  <li>Logo Design</li>
+  <li>Graphic Design</li>
+  <li>Degital Marketing</li>
+  <li>2D-3D Animation</li>
+
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-3">
+  <h4 style="color: coral; font-weight: 400;">Quick Links
+  </h4>
+  <li>Home</li>
+  <li>Abouts</li>
+  <li>Portofolio</li>
+  <li>Pricing</li>
+  
+
+</div>
+
+<div class="col-md-2">
+  <h4 style="color: coral; font-weight: 400;">Support  </h4>
+  <li>Contacts</li>
+  <li>FAQ's</li>
+  <li>Privacy & Policy</li>
+  
+</div>
+<div class="col-md-4">
+  <h4 style="color: coral; font-weight: 400;">Contact  </h4>
+  <li><i class="fa fa-envelope-o" aria-hidden="true"></i> infofrelanceritservices.com</li>
+  <li><i class="fa fa-phone" aria-hidden="true"></i> +91 6261345467 , +91 6787678978</li>
+  <li>
+    <div class="row">
+  <div class="col-md-12">  <input type="text" class="form-control" placeholder="subscribe now!" style="width: 50%;"></div></div>
+  <div style="padding: 5px;"><input type="submit" class="form-control" value="Send" style="background-color: cornflowerblue; color: white; width: 30%;"></div>
+    
+  </li>
+  
+</div>
+
+</div>
+
+</div>
+</section>
+
+</body>
+</html>
